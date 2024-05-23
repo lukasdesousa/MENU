@@ -86,15 +86,16 @@ main {
 }
 
 main>h1 {
-    padding: 10px;
+    padding: 10px 10px 10px 20px;
     text-align: left;
     font-family: Freeman, sans-serif;
     font-size: 30px;
+    box-shadow: 1px 1px 5px #515151;
     color: #000000;
-    background-color: rgba(255, 149, 0, 0.238);
-   max-width: 80%;
-   max-width: 80%;
-   border-radius: 0px 20px 40px 0px;
+    background-color: rgba(139, 139, 139, 0.238);
+    max-width: 80%;
+    max-width: 80%;
+    border-radius: 0px 10px 40px 0px;
 }
 
 #pizzas {

@@ -1,8 +1,8 @@
 let menu = document.querySelector('#menuSobe')
 
-window.addEventListener('scroll', subir)
+window.addEventListener('scroll', up)
 
-function subir() {
+function up() {
     var posicaoScroll = window.scrollY;
 
     if (posicaoScroll > 15) {
